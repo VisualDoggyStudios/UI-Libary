@@ -64,7 +64,7 @@ function Library:CreateWindow(TitleText: string)
 	Watermark.BackgroundTransparency = 1.000
 	Watermark.Size = UDim2.new(1, 0, 1, 0)
 	Watermark.Image = "rbxassetid://121942475647703"
-	Watermark.ImageTransparency = 0.950
+	Watermark.ImageTransparency = 0.75
 
 	local FullTitleLabel = Instance.new("TextLabel")
 	FullTitleLabel.Name = "Title"
